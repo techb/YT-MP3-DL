@@ -1,4 +1,3 @@
-from __future__ import unicode_literals
 import youtube_dl
 from youtube_dl.utils import GeoRestrictedError
 import PySimpleGUI as sg
@@ -26,12 +25,12 @@ class MyLogger(object):
         print('-'*40)
 
 
-# Hook to say when youtube_dl is done
+# Hook to say when youtube_dl is done dowloading from url
+# Then webm is converted to MP3 and move on to the next url in its list
 def my_hook(d):
     if d['status'] == 'finished':
         padd()
         print('------------ Converting to MP3 ------------')
-
 
 # Function to do the actual youtube to mp3 work
 def download_mp3(opts, urls):
@@ -61,6 +60,7 @@ INPUT_X_SIZE = 50
 INPUT_Y_SIZE = 10
 
 # Define the gui layout
+# https://pypi.org/project/PySimpleGUI/
 layout = [
     [sg.Text("List of YouTube Urls"), sg.Text('Output', pad=(260, 0))],
     [sg.Multiline(size=(INPUT_X_SIZE, INPUT_Y_SIZE), key='-INPUT-', autoscroll=True), sg.Output(size=(INPUT_X_SIZE, INPUT_Y_SIZE))],
@@ -85,7 +85,12 @@ while True:
         urls = []
         for line in  values['-INPUT-'].split('\n'):
             if line != '':
-                urls.append(line.rstrip().replace(',', '')) # If CSV, remove commas
+                line = line.rstrip() # remove white space
+                line = line.replace(',', '') # If CSV, remove commas
+                # remove any url params
+                # like playlists and time stamps
+                line = line.split('&')[0]
+                urls.append(line)
 
         # Config for youtube_dl, set output to user selected folders
         ydl_opts = {
