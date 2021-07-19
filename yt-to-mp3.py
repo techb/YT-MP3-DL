@@ -1,3 +1,5 @@
+#! /usr/bin/env python3
+
 import youtube_dl
 from youtube_dl.utils import GeoRestrictedError
 import PySimpleGUI as sg
