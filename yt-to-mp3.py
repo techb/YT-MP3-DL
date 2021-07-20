@@ -54,6 +54,7 @@ def download_mp3(opts, urls):
         print('!'*40)
 
     padd()
+    window['Convert'].update(disabled=False)
     print("------------ All Done =) ------------")
 
 
@@ -84,13 +85,13 @@ while True:
 
     # Convert button clicked
     if event == 'Convert':
+        window['Convert'].update(disabled=True)
         urls = []
         for line in  values['-INPUT-'].split('\n'):
             if line != '':
                 line = line.rstrip() # remove white space
                 line = line.replace(',', '') # If CSV, remove commas
-                # remove any url params
-                # like playlists and time stamps
+                # remove any url params like playlists and time stamps
                 line = line.split('&')[0]
                 urls.append(line)
 
