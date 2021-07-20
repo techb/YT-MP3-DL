@@ -17,9 +17,14 @@ GUI tool to download a single or list of YouTube videos as MP3s. Simply copy and
 - Right click the desired folder containing youtube urls
 - Paste into URL list
 - Remove non youtube url label
-
-
+- _[Browse]_ to desired folder to save your new MP3's
+- _[Convert]_ starts the conversion process
+- All done!
 
 ![Copy Bookmark Folder](img/copy-bookmark.png)
 ![Remove Header Label in List](img/copy-bookmark2.png)
 ![Correct list](img/copy-bookmark3.png)
+![Browse to folder](img/browse.png)
+![Convert](img/usage.png)
+![All finished](img/finished.png)
+
