@@ -9,7 +9,7 @@ GUI tool to download a single or list of YouTube videos as MP3s. Simply copy and
 - `$ pipenv install`
 - `$ python yt-to-mp3.py`
 
-## Requires
+## Libs Used
 - PySimpleGUI
 - youtube_dl
 
