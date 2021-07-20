@@ -1,6 +1,16 @@
 {
     "cSpell.ignoreWords": [
+        "audio",
+        "extract",
+        "f",
+        "favicon",
+        "fmpeg",
         "outtmpl",
-        "padd"
+        "padd",
+        "pipenv",
+        "preferredcodec",
+        "techb",
+        "webm",
+        "youtube"
     ]
 }
