@@ -11,6 +11,13 @@ I usually go down the YouTube music rabbit hole on occasion. When I do, I bookma
 - youtube_dl 2021.6.6
 - PySimpleGUI 4.45.0
 
+## Build
+Build steps to create a .exe binary
+---
+<span style="color=red">Warning!</span>
+Must `pip install youtube_dl PySimpleGUI` **OUTSIDE** of pipenv to compile ot binary!
+---
+
 ## Install and Run
 - `$ git clone git@github.com:techb/YT-MP3-DL.git`
 - `$ pipenv shell`
