@@ -16,6 +16,8 @@ GUI tool to download a single or list of YouTube videos as MP3s. Simply copy and
 ## Download from bookmark folder
 - Right click the desired folder containing youtube urls
 - Paste into URL list
+    - Can also use a CSV if pasting from another source
+    commas will be removed before loading in the URLs
 - Remove non youtube url label
 - _[Browse]_ to desired folder to save your new MP3's
 - _[Convert]_ starts the conversion process
