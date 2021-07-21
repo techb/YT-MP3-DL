@@ -9,10 +9,10 @@ I usually go down the YouTube music rabbit hole on occasion. When I do, I bookma
 
 
 ## Version Info
-- Python 3.6
-- pipenv 2018.11.26
-- youtube_dl 2021.6.6
-- PySimpleGUI 4.45.0
+- Python :: 3.6
+- pipenv :: 2018.11.26
+- youtube_dl :: 2021.6.6
+- PySimpleGUI :: 4.45.0
 
 
 ## Libs Used
