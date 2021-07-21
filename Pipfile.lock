@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ef99eb4fe77526fc5268407d78bd0ddf877bae3a3d97581cffb7b04d4986f989"
+            "sha256": "f9cfb79ba6568395d2867450c372080ea356c6067d720f190104c63dcc460fe8"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -63,6 +63,14 @@
                 "sha256:7f5d0689b30da3092149fc536a835a94045ac8c9f0e6dfb23ac171890f5ea8f2"
             ],
             "version": "==2021.2"
+        },
+        "pysimplegui": {
+            "hashes": [
+                "sha256:22efb6927edfb11dcfa6e0888480712401a63b4dd2aecc4bdd6bd3c95f0cc6b0",
+                "sha256:7152c7b45924b7ac8c461df8b3bfd7e163c731565b3220f20781452f45b39263"
+            ],
+            "index": "pypi",
+            "version": "==4.45.0"
         },
         "pywin32-ctypes": {
             "hashes": [

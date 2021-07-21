@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 youtube-dl = "*"
 pyinstaller = "*"
+pysimplegui = "*"
 
 [requires]
 python_version = "3.7"
