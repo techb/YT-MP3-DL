@@ -30,7 +30,7 @@ Build steps to create a .exe binary
 
 ##### Build
 - `$ pip install pyinstaller`
-- `$ pyinstaller yt-to-mps.py --onefile --noconsole`
+- `$ pyinstaller yt-to-mp3.py --onefile --noconsole`
 - exe is in `dist/<script-name>.exe`
 - you can delete `build/`, `/<name>.spec`, these are only used to compile
 
