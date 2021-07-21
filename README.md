@@ -1,5 +1,6 @@
 # YouTube to MP3 GUI Tool
-[Windows exe found here](<place-hold>)
+[Windows exe found here](https://github.com/techb/YT-MP3-DL/blob/master/dist/yt-to-mp3.exe)
+
 GUI tool to download a single or list of YouTube videos as MP3s. Simply copy and paste your desired YouTube videos url, separated by a new line. Select the destination folder and click convert. If there is an issue, usually cause by videos becoming unavailable in your country or the video being removed by the author, you will be givin a list of failed urls.
 
 I usually go down the YouTube music rabbit hole on occasion. When I do, I bookmark everything I like to a _new music_ folder and forget about it for 3 months. I wanted an easy way to grab the MP3's and knew about an simple Python lib called youtube_dl. So I hacked together a working script, googled the easiest GUI lib, and slapped some inputs and buttons on the screen. This is the result so far, enjoy!
@@ -34,6 +35,11 @@ Build steps to create a .exe binary
 - you can delete `build/`, `/<name>.spec`, these are only used to compile
 
 ## Install and Run
+For Windows
+- [Dowload this](https://github.com/techb/YT-MP3-DL/blob/master/dist/yt-to-mp3.exe)
+- Run it
+
+Run from source
 - `$ git clone git@github.com:techb/YT-MP3-DL.git`
 - `$ pipenv shell`
 - `$ pipenv install`
