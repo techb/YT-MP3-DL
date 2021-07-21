@@ -36,7 +36,7 @@ Build steps to create a .exe binary
 
 ## Install and Run
 For Windows
-- [Dowload this](https://github.com/techb/YT-MP3-DL/blob/master/dist/yt-to-mp3.exe)
+- [Download this](https://github.com/techb/YT-MP3-DL/blob/master/dist/yt-to-mp3.exe)
 - Run it
 
 Run from source
