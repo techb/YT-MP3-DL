@@ -13,6 +13,7 @@
         "pipenv",
         "preferredcodec",
         "py",
+        "pydub",
         "pyinstaller",
         "simple",
         "techb",

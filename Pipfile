@@ -9,6 +9,9 @@ verify_ssl = true
 youtube-dl = "*"
 pyinstaller = "*"
 pysimplegui = "*"
+pydub = "*"
+numpy = "*"
+matplotlib = "*"
 
 [requires]
 python_version = "3.7"
