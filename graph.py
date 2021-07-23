@@ -7,11 +7,15 @@ from SnaptoCursor import *
 
 
 # utility to convert the mp3's to wav
+# p is path to file
 def mp3_to_wav(p):
     s = pydub.AudioSegment.from_mp3(p)
     s.export(p.replace("mp3", "wav"), format="wav")
 
 
+# assumes there is a wav file in this dir
+# used for testing for now, you can get a wav from
+# running yt-to-mp3.py, then use mp3_to_wav, rename to test.wav
 wav = wave.open(os.getcwd()+"\\test.wav", "r")
 # wav files are BIG, so we'll downsample it later
 downsample = 1000
