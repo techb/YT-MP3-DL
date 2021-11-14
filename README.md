@@ -14,6 +14,8 @@ I usually go down the YouTube music rabbit hole on occasion. When I do, I bookma
 - youtube_dl :: 2021.6.6
 - PySimpleGUI :: 4.45.0
 
+## Requires
+- [FFmpeg](https://www.ffmpeg.org/)
 
 ## Libs Used
 - [PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI)
